@@ -1,847 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport">
-    <title>Document</title>
-    <link rel="stylesheet" href="stayl.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventro | Innovative Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav class="n">
-        <h2 class="nav">Aventro</h2>
-        <a class="nav2" href="#Home">Home</a>
-        <a class="nav2" href="#About">About</a>
-        <a class="nav2" href="#Services">Services</a>
-        <a class="nav2" href="#Pricing">Pricing</a>
-        <a class="nav2" href="#Team">Team</a>
-        <select class="nav3" name="dropdown" id="">
-            <option value="" hidden>dropdown</option>
-            <option value="">dropdown1</option>
-            <option value="">deep dropdown</option>
-            <option value="">dropdown2</option>
-            <option value="">dropdown3</option>
-            <option value="">dropdown4</option>
-        </select>
-        <a class="nav2" href="#Contact">Contact</a>
-
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Aventro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-2">
+                        <a class="btn btn-primary" href="#contact">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
 
-        <section id="home">
-            <div class="h7">
-                <button class="h1">Innovative Solutions</button>
-                <p class="h2">Transform Your <br> Business with Modern <br> Technology</p>
-                <p class="h3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Sed do eiusmod tempor
-                    incididunt ut
-                    labore et dolore <br> magna aliqua. Ut enim ad minim veniam quis nostrud</p>
-                <a href="Services"><button class="h1">Explore Services</button></a>
-                <div class="">
-                    <div class="h5">
-                        <h2 class="h4">500+</h2>
-                        <p class="h6">Projects Completed</p>
-                    </div>
-                    <div class="h5">
-                        <h2 class="h4">98%</h2>
-                        <p class="h6">Client Satisfaction</p>
-                    </div>
-                    <div class="h5">
-                        <h2 class="h4">24/7</h2>
-                        <p class="h6">Support Available</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="f1">
-                <div class="f2">Secure & Reliable</div>
-                <div class="f2">Expert Team</div>
-                <div class="f2">High Performance</div>
-                <div class="f2">Award Winning</div>
-            </div>
-            </div>
-        </section>
-
-        <section id="About">
-            <div>
-                <center>
-                    <h2 class="q1">About</h2> <br>
-                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                </center>
-                <div>
-                    <img class="q2" src="https://bootstrapmade.com/content/demo/Aventro/assets/img/about/about-21.webp"alt="">
-                </div>
-
-                <div class="q3">
-                    <h2 class="q4">Our Visionary Endeavors</h2>
-                    <p>Discover how our diverse range of services can empower your business to <br> achieve greater
-                        efficiency and growth in a competitive landscape.</p>
-                    <p>We provide expert consultancy and practical tools designed to streamline your <br> operations,
-                        enhance productivity, and maximize your return on investment. Our <br> committed team of
-                        professionals is dedicated to helping you navigate challenges and <br> seize opportunities.</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h2>Our Core Principles</h2> <br>
-                    <p>We adhere to a strict set of values focused on <br> integrity, innovation, and client
-                        satisfaction in every <br> aspect.</p>
-                </div>
-                <div>
-                    <h2>Our Journey So Far</h2> <br>
-                    <p>Since our inception, we have continuously evolved <br> to meet the dynamic needs of the global
-                        market <br> effectively.</p>
-                </div>
-                <div>
-                    <h2>Meet Our Team</h2> <br>
-                    <p>Our dedicated personnel are the backbone of our <br> success, bringing diverse expertise and a
-                        shared <br> commitment to excellence.</p>
-                </div>
-                <a href="#Home"><button>Discover Our Story</button></a>
-            </div>
-        </section>
-
-        <section id="Services">
-            <div>
-                <center>
-                    <h2>Services</h2> <br>
-                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                </center>
-                <div>
-                    <h2>Digital Solutions</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque
-                        laudantium
-                        <br> totam rem aperiam eaque ipsa.
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h6 class="text-primary mb-3 animate__animated animate__fadeInUp">Innovative Solutions</h6>
+                    <h1 class="animate__animated animate__fadeInUp">Transform Your Business with Modern Technology</h1>
+                    <p class="animate__animated animate__fadeInUp animate__delay-1s">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
                     </p>
-                    <a href="#Home">Learn More -></a>
+                    <div class="animate__animated animate__fadeInUp animate__delay-2s">
+                        <a href="#services" class="btn btn-primary me-3">Our Services</a>
+                        <a href="#contact" class="btn btn-outline-primary">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row mt-5 mt-lg-0 g-4">
+                        <div class="col-md-6">
+                            <div class="stats-box animate__animated animate__fadeInUp">
+                                <div class="stats-number">500+</div>
+                                <p class="mb-0">Projects Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stats-box animate__animated animate__fadeInUp animate__delay-1s">
+                                <div class="stats-number">98%</div>
+                                <p class="mb-0">Client Satisfaction</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stats-box animate__animated animate__fadeInUp animate__delay-2s">
+                                <div class="stats-number">24/7</div>
+                                <p class="mb-0">Support Available</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="stats-box animate__animated animate__fadeInUp animate__delay-3s">
+                                <div class="stats-number">100%</div>
+                                <p class="mb-0">Secure & Reliable</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div>
-                <div>
-                    <h2>Secure Systems</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque
-                        laudantium
-                        <br> totam rem aperiam eaque ipsa.
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card animate__animated animate__fadeInUp">
+                        <div class="feature-icon">
+                            <i class="bi bi-shield-check text-white fs-3"></i>
+                        </div>
+                        <h4>Secure & Reliable</h4>
+                        <p class="text-gray">Enterprise-grade security with 99.9% uptime guarantee and data encryption.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card animate__animated animate__fadeInUp animate__delay-1s">
+                        <div class="feature-icon">
+                            <i class="bi bi-people text-white fs-3"></i>
+                        </div>
+                        <h4>Expert Team</h4>
+                        <p class="text-gray">Certified professionals with 10+ years experience in technology solutions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card animate__animated animate__fadeInUp animate__delay-2s">
+                        <div class="feature-icon">
+                            <i class="bi bi-lightning-charge text-white fs-3"></i>
+                        </div>
+                        <h4>High Performance</h4>
+                        <p class="text-gray">Optimized solutions delivering 3x faster performance than industry average.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h6 class="text-primary mb-3">About Us</h6>
+                    <h2 class="section-title">Our Visionary Endeavors</h2>
+                    <p class="section-subtitle">
+                        Discover how our diverse range of services can empower your business to achieve greater efficiency and growth in a competitive landscape.
                     </p>
-                    <a href="#Home">Learn More -></a>
-                </div>
-
-                <div>
-                    <h2>Growth Strategy</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque
-                        laudantium
-                        <br> totam rem aperiam eaque ipsa.
-                    </p>
-                    <a href="#Home">Learn More -></a>
-                </div>
-
-                <div>
-                    <h2>AI Integration</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque
-                        laudantium
-                        <br> totam rem aperiam eaque ipsa.
-                    </p>
-                    <a href="#Home">Learn More -></a>
-                </div>
-
-                <div>
-                    <h2>Cloud Services</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque
-                        laudantium
-                        <br> totam rem aperiam eaque ipsa.
-                    </p>
-                    <a href="#Home">Learn More -></a>
-                </div>
-
-
-                <div>
-                    <h2>Process Automation</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque
-                        laudantium
-                        <br> totam rem aperiam eaque ipsa.
-                    </p>
-                    <a href="#Home">Learn More -></a>
-                </div>
-            </div>
-
-            <div>
-                <h2>Elevating Your Digital <br> Experience</h2>
-                <p>Curabitur ullamcorper ultricies nisi. Nam eget dui etiam rhoncus <br> maecenas tempus tellus eget
-                    condimentum rhoncus sem quam <br> semper libero sit amet adipiscing sem neque sed ipsum.</p>
-                <h2>2.5K+</h2>
-                <p>Active Users</p>
-                <h2>99.9%</h2>
-                <p>Uptime Rate</p>
-                <h2>150+</h2>
-                <p>Integrations</p>
-                <a href="Home">Explore all features-></a>
-            </div>
-
-            <div>
-                <div>
-                    <h2>Advanced Security Protocol</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis <br> egestas
-                        vestibulum tortor quam feugiat vitae.</p>
-                </div>
-
-                <div>
-                    <h2>Seamless Workflows</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis <br> egestas
-                        vestibulum tortor quam feugiat vitae.</p>
-                </div>
-
-                <div>
-                    <h2>Real-Time Analytics</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis <br> egestas
-                        vestibulum tortor quam feugiat vitae.</p>
-                </div>
-
-                <div>
-                    <h2>Rapid Deployment</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis <br> egestas
-                        vestibulum tortor quam feugiat vitae.</p>
-                </div>
-
-                <div>
-                    <h2>Infinite Scalability</h2>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis <br> egestas
-                        vestibulum tortor quam feugiat vitae.</p>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <div>
-                        01
-                    </div>
-                    <h3>Innovation</h3>
-                    <p>Creative solutions</p>
-                </div>
-                <div>
-                    <div>
-                        02
-                    </div>
-                    <h3>Strategy</h3>
-                    <p>Creative solutions</p>
-                </div>
-                <div>
-                    <div>
-                        03
-                    </div>
-                    <h3>Performance</h3>
-                    <p>Creative solutions</p>
-                </div>
-                <div>
-                    <div>
-                        04
-                    </div>
-                    <h3>Integration</h3>
-                    <p>Creative solutions</p>
-                </div>
-            </div>
-
-            <div>
-                <h2>Revolutionary Design Thinking</h2>
-                <p>Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque <br> laudantium,
-                    totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi <br> architecto beatae vitae
-                    dicta sunt explicabo.</p>
-                <h2>145%</h2>
-                <p>Innovation Rate</p>
-                <h2>28K</h2>
-                <p>Ideas Generated</p>
-                <p>
-                    -> Nemo enim ipsam voluptatem quia voluptas sit <br>
-                    -> Aspernatur aut odit fugit sed quia consequuntur <br>
-                    -> Magni dolores eos qui ratione voluptatem <br>
-                </p>
-                <img width="600"
-                    src="https://bootstrapmade.com/content/demo/Aventro/assets/img/features/features-2.webp" alt="">\
-            </div>
-
-            <div>
-                <h1>TRANSFORM YOUR BUSINESS</h1>
-                <h2>Partner with Industry Leaders</h2>
-                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
-                    neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus.</p>
-
-                <div>
-                    <div>
-                        <strong>750+ Enterprise Clients</strong>
-                    </div>
-                    <div>
-                        <strong>98% Client Retention</strong>
-                    </div>
-                    <div>
-                        <strong>24/7 Support Coverage</strong>
-                    </div>
-                </div>
-
-                <hr>
-
-                <div>
-                    <h3>Request a Consultation</h3>
-                    <p>Speak with our experts to discuss your business requirements</p>
-
-                    <ul>
-                        <li>
-                            <strong>Enterprise Security</strong><br>
-                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                        </li>
-                        <li>
-                            <strong>Scalable Solutions</strong><br>
-                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-                        </li>
-                        <li>
-                            <strong>Dedicated Support</strong><br>
-                            Pellentesque in ipsum id orci porta dapibus vestibulum ac diam.
-                        </li>
-                        <li>
-                            <strong>Rapid Implementation</strong><br>
-                            Nulla quis lorem ut libero malesuada feugiat curabitur arcu erat.
-                        </li>
-                    </ul>
-
-                    <a href="#">Download Brochure</a>
-
-                    <p>Or call us at <strong>+1 (555) 234-5678</strong></p>
-                </div>
-            </div>
-        </section>
-
-        <section id="Pricing">
-            <div>
-                <div>
-                    <h1>Pricing</h1>
-                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                </div>
-
-
-
-                <div>
-                    <div>
-                        <div>
-                            <h3>Starter</h3>
-                            <p>For small teams getting started</p>
-                        </div>
-
-                        <div>
-                            <div>$29</div>
-                            <div>/user/month</div>
-                            <p>Billed monthly</p>
-                        </div>
-
-                        <ul>
-                            <li><i>✓</i> Up to 10 team members</li>
-                            <li><i>✓</i> 5 GB storage per user</li>
-                            <li><i>✓</i> Basic reporting and analytics</li>
-                            <li><i>✓</i> Email support</li>
-                            <li><i>✓</i> Mobile app access</li>
-                        </ul>
-
-                        <button>Start Free Trial</button>
-
-                        <p>14-day free trial, no credit card required</p>
-
-                        <div>Most Popular</div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <h3>Professional</h3>
-                            <p>For growing businesses</p>
-                        </div>
-
-                        <div>
-                            <div>$59</div>
-                            <div>/user/month</div>
-                            <p>Billed monthly</p>
-                        </div>
-
-                        <ul>
-                            <li><i>✓</i> Unlimited team members</li>
-                            <li><i>✓</i> 50 GB storage per user</li>
-                            <li><i>✓</i> Advanced analytics and reporting</li>
-                            <li><i>✓</i> Priority email and chat support</li>
-                            <li><i>✓</i> Custom integrations</li>
-                            <li><i>✓</i> API access</li>
-                        </ul>
-
-                        <button>Start Free Trial</button>
-
-                        <p>14-day free trial, no credit card required</p>
-
-                        <div>Most Popular</div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <h3>Enterprise</h3>
-                            <p>For large organizations</p>
-                        </div>
-
-                        <div>
-                            <div>Custom</div>
-                            <div>Pricing</div>
-                            <p>Tailored to your needs</p>
-                        </div>
-
-                        <ul>
-                            <li><i>✓</i> Everything in Professional</li>
-                            <li><i>✓</i> Unlimited storage</li>
-                            <li><i>✓</i> Dedicated account manager</li>
-                            <li><i>✓</i> 24/7 phone support</li>
-                            <li><i>✓</i> Advanced security and compliance</li>
-                            <li><i>✓</i> Custom SLA and contracts</li>
-                        </ul>
-
-                        <button>Contact Sales</button>
-
-                        <p>Schedule a consultation with our team</p>
-
-                        <div>Most Popular</div>
-                    </div>
-                </div>
-                Team
-                <div>
-                    <span>Monthly</span>
-                    <label>
-                        <input>
-                        <span></span>
-                    </label>
-                    <span>Annual <span>(Save 20%)</span></span>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <span>&times;</span>
-                    <h3>Start Your Free Trial</h3>
-                    <p>You've selected the <span></span> plan.</p>
-
-                    <form>
-                        <div>
-                            <label>Email Address</label>
-                            <input required placeholder="you@company.com">
-                        </div>
-
-                        <div>
-                            <label>Company Name</label>
-                            <input type="text" id="" placeholder="Your Company">
-                        </div>
-
-                        <div>
-                            <label>Number of Users</label>
-                            <select>
-                                <option value="1-5">1-5 users</option>
-                                <option value="6-10">6-10 users</option>
-                                <option value="11-50">11-50 users</option>
-                                <option value="51+">51+ users</option>
-                            </select>
-                        </div>
-
-                        <button>Start 14-Day Free Trial</button>
-                    </form>
-
-                    <p>No credit card required • Cancel anytime</p>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <div>
-                        <h3>All plans include:</h3>
-                        <div>
-                            <div>
-                                <div>🔒</div>
-                                <span>SSL security</span>
-                            </div>
-                            <div>
-                                <div>⏱️</div>
-                                <span>99.9% uptime guarantee</span>
-                            </div>
-                            <div>
-                                <div>💾</div>
-                                <span>Data backup</span>
-                            </div>
-                            <div>
-                                <div>📋</div>
-                                <span>GDPR compliance</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <a href="#">
-                            <span>Compare all features</span>
-                            <svg width="20" height="20"></svg>
-                        </a>
-                        <a href="#">
-                            <span>View FAQ</span>
-                            <svg width="20" height="20"></svg>
-                        </a>
-                        <a href="#">
-                            <span>Contact Support</span>
-                            <svg width="20" height="20">
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <div>
-                        <h2>Frequently Asked Questions</h2>
-                        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-                            consectetur velit</p>
-                    </div>
-
-                    <div>
-                        <div>
-                            <div>
-                                <h3>Vestibulum ac diam sit amet quam vehicula elementum?</h3>
-                                <svg width="24" height="24"></svg>
-                            </div>
-                            <div>
-                                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue
-                                    leo eget malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                                    posuere cubilia curae. Praesent sapien massa, convallis a pellentesque nec, egestas
-                                    non nisi.</p>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div>
-                                <h3>Nulla porttitor accumsan tincidunt mauris blandit?</h3>
-                                <svg width="24" height="24"></svg>
-                            </div>
-                            <div>
-                                <p>Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis
-                                    porttitor volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac
-                                    lectus.</p>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div>
-                                <h3>Curabitur aliquet quam id dui posuere blandit proin?</h3>
-                                <svg width="24" height="24"></svg>
-                            </div>
-                            <div>
-                                <p>Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Quisque
-                                    velit nisi, pretium ut lacinia in, elementum id enim.</p>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div>
-                                <h3>Vivamus magna justo lacinia eget consectetur sed?</h3>
-                                <svg width="24" height="24"></svg>
-                            </div>
-                            <div>
-                                <p>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Curabitur
-                                    aliquet quam id dui posuere blandit.</p>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div>
-                                <h3>Donec sollicitudin molestie malesuada proin eget?</h3>
-                                <svg width="24" height="24"></svg>
-                            </div>
-                            <div>
-                                <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum
-                                    ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div>
-                                <h3>Pellentesque in ipsum id orci porta dapibus vestibulum?</h3>
-                                <svg width="24" height="24"></svg>
-                            </div>
-                            <div>
-                                <p>Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada.
-                                    Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <p>Still have questions? We're here to help!</p>
-                        <div>
-                            <button>
-                                <svg width="20" height="20"></svg>
-                                Live Chat
-                            </button>
-                            <button>
-                                <svg width="20" height="20"></svg>
-                                Email Support
-                            </button>
-                            <button>
-                                <svg width="20" height="20">
-                                </svg>
-                                Call Us
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <span>&times;</span>
-                    <h3>Compare All Features</h3>
-                    <div>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Feature</th>
-                                    <th>Starter</th>
-                                    <th>Professional</th>
-                                    <th>Enterprise</th>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Team Members</td>
-                                    <td>Up to 10</td>
-                                    <td>Unlimited</td>
-                                    <td>Unlimited</td>
-                                </tr>
-                                <tr>
-                                    <td>Storage per User</td>
-                                    <td>5 GB</td>
-                                    <td>50 GB</td>
-                                    <td>Unlimited</td>
-                                </tr>
-                                <tr>
-                                    <td>Support</td>
-                                    <td>Email</td>
-                                    <td>Priority Email & Chat</td>
-                                    <td>24/7 Phone Support</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="Team">
-            <div>
-                <h2>Team</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-                    consectetur velit</p>
-            </div>
-
-            <div>
-                <h2>Our Professional Team</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec
-                    ullamcorper mattis pulvinar dapibus leo.</p>
-            </div>
-
-
-            <div>
-                <div>
-                    <h3>Jason Parker</h3>
-                    <p>UI/UX Designer</p>
-                </div>
-                <div>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
-                    </p>
-                </div>
-                <div>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Dribbble</a>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h3>Emily Rodriguez</h3>
-                    <p>Project Manager</p>
-                </div>
-                <div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                        praesentium.</p>
-                </div>
-                <div>
-                    <a href="#">LinkedIn</a>
-                    <a href="#"></a>Twitter</a>
-                    <a href="#">GitHub</a>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h3>Marcus Wilson</h3>
-                    <p>Chief Technology Officer</p>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.
-                    </p>
-                </div>
-                <div>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Medium</a>
-                </div>
-            </div>
-
-            <div>
-                <div>
-                    <h3>Sophia Reynolds</h3>
-                    <p>Product Designer</p>
-                </div>
-
-                <div>
                     <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat.
+                        We provide expert consultancy and practical tools designed to streamline your operations, enhance productivity, and maximize your return on investment. Our committed team of professionals is dedicated to helping you navigate challenges and seize opportunities.
                     </p>
+                    <a href="#contact" class="btn btn-primary mt-3">Discover Our Story</a>
                 </div>
-
-                <div>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">Behance</a>
-                </div>
-            </div>
-
-            <div>
-                <h3>Connect With Our Team</h3>
-
-                <div>
-                    <a href="#">
-                        <svg width="24" height="24"></svg>
-                        <span>LinkedIn</span>
-                    </a>
-
-                    <a href="#">
-                        <svg width="24" height="24"></svg>
-                        <span>Twitter</span>
-                    </a>
-
-                    <a href="#">
-                        <svg width="24" height="24"></svg>
-                        <span>Instagram</span>
-                    </a>
-
-                    <a href="#">
-                        <svg width="24" height="24"></svg>
-                        <span>Facebook</span>
-                    </a>
-
-                    <a href="#">
-                        <svg width="24" height="24"></svg>
-                        <span>GitHub</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section id="Contact">
-            <div>
-                <header>
-                    <h1>Contact</h1>
-                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-                </header>
-
-                <div>
-                    <div>
-                        <div>
-                            <h3>Email Support</h3>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="feature-card">
+                                <h4>Our Core Principles</h4>
+                                <p>We adhere to a strict set of values focused on integrity, innovation, and client satisfaction in every aspect.</p>
+                            </div>
                         </div>
-                        <div>
-                            <p>support@example.com</p>
-                            <p>- Usually replies in 2 hours</p>
+                        <div class="col-md-6">
+                            <div class="feature-card">
+                                <h4>Our Journey So Far</h4>
+                                <p>Since our inception, we have continuously evolved to meet the dynamic needs of the global market effectively.</p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <h3>Live Chat</h3>
+                        <div class="col-md-6">
+                            <div class="feature-card">
+                                <h4>Meet Our Team</h4>
+                                <p>Our dedicated personnel are the backbone of our success, bringing diverse expertise and a shared commitment to excellence.</p>
+                            </div>
                         </div>
-                        <div>
-                            <p>Chat with our team</p>
-                            <p>- Available Mon-Fri, 9AM-6PM</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <h3>Our Location</h3>
-                        </div>
-                        <div>
-                            <p>2847 Market Street</p>
-                            <p>San Francisco, CA 94114</p>
-                            <p>- Open for visits</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <div>🔒</div>
-                        <h4>100% Secure</h4>
-                        <p>Your data is protected</p>
-                    </div>
-
-                    <div>
-                        <div>⚡️</div>
-                        <h4>Quick Response</h4>
-                        <p>We reply within hours</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <div>
-                            <h2>Get Started Today</h2>
-                            <h3>Send us a message</h3>
-                            <p>
-                                Consectetur adipiscing elit sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation.
-                            </p>
-
-                            <form id="contactForm">
-                                <div>
-                                    <label>Full Name *</label>
-                                    <input type="text" id="" name="" required placeholder="John Doe">
-                                </div>
-
-                                <div>
-                                    <label>Email Address *</label>
-                                    <input type="email" id="" name="" required placeholder="you@example.com">
-                                </div>
-
-                                <div>
-                                    <label>Phone Number (Optional)</label>
-                                    <input type="tel" id="" name="" placeholder="+1 (555) 123-4567">
-                                </div>
-
-                                <div>
-                                    <label>Select Inquiry Type *</label>
-                                    <option value="">Select an option</option>
-                                    <option value="general">General Inquiry</option>
-                                    <option value="support">Technical Support</option>
-                                    <option value="sales">Sales Question</option>
-                                    <option value="billing">Billing Issue</option>
-                                    <option value="other">Other</option>
-                                </div>
-                            </form>
+                        <div class="col-md-6">
+                            <div class="feature-card">
+                                <h4>Global Reach</h4>
+                                <p>We serve clients across 50+ countries with localized solutions and 24/7 support in multiple languages.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
+    <section id="services" class="services">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-primary mb-3">What We Offer</h6>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle mx-auto">
+                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-laptop text-white fs-4"></i>
+                        </div>
+                        <h4>Digital Solutions</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-shield-lock text-white fs-4"></i>
+                        </div>
+                        <h4>Secure Systems</h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-graph-up-arrow text-white fs-4"></i>
+                        </div>
+                        <h4>Growth Strategy</h4>
+                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-cpu text-white fs-4"></i>
+                        </div>
+                        <h4>AI Integration</h4>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-cloud-arrow-up text-white fs-4"></i>
+                        </div>
+                        <h4>Cloud Services</h4>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-robot text-white fs-4"></i>
+                        </div>
+                        <h4>Process Automation</h4>
+                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-primary mb-3">Plans & Pricing</h6>
+                <h2 class="section-title">Choose Your Plan</h2>
+                <p class="section-subtitle mx-auto">
+                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card h-100">
+                        <div class="pricing-header">
+                            <h4>Starter</h4>
+                            <p>For small teams getting started</p>
+                            <div class="price">$29</div>
+                            <p class="mb-0">/user/month</p>
+                            <small>Billed monthly</small>
+                        </div>
+                        <div class="p-4">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Up to 10 team members</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> 5 GB storage per user</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Basic reporting and analytics</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Email support</li>
+                                <li class="mb-4"><i class="bi bi-check-circle-fill text-primary me-2"></i> Mobile app access</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary w-100">Start Free Trial</a>
+                            <p class="text-center mt-3 small">14-day free trial, no credit card required</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card h-100 position-relative">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h4>Professional</h4>
+                            <p>For growing businesses</p>
+                            <div class="price">$59</div>
+                            <p class="mb-0">/user/month</p>
+                            <small>Billed monthly</small>
+                        </div>
+                        <div class="p-4">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Unlimited team members</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> 50 GB storage per user</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Advanced analytics and reporting</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Priority email and chat support</li>
+                                <li class="mb-4"><i class="bi bi-check-circle-fill text-primary me-2"></i> Custom integrations & API access</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary w-100">Start Free Trial</a>
+                            <p class="text-center mt-3 small">14-day free trial, no credit card required</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card h-100">
+                        <div class="pricing-header">
+                            <h4>Enterprise</h4>
+                            <p>For large organizations</p>
+                            <div class="price">Custom</div>
+                            <p class="mb-0">Tailored to your needs</p>
+                            <small>Contact for pricing</small>
+                        </div>
+                        <div class="p-4">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Everything in Professional</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Unlimited storage</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> Dedicated account manager</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-primary me-2"></i> 24/7 phone support</li>
+                                <li class="mb-4"><i class="bi bi-check-circle-fill text-primary me-2"></i> Advanced security and compliance</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-outline-primary w-100">Contact Sales</a>
+                            <p class="text-center mt-3 small">Schedule a consultation with our team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-primary mb-3">Our Experts</h6>
+                <h2 class="section-title">Our Professional Team</h2>
+                <p class="section-subtitle mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-card">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500" class="team-img" alt="Marcus Wilson">
+                        <div class="p-4">
+                            <h4 class="mb-1">Marcus Wilson</h4>
+                            <p class="text-primary mb-3">Chief Technology Officer</p>
+                            <p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-card">
+                        <img src="https://www.ripponmedicalservices.co.uk/images/easyblog_articles/89/b2ap3_large_ee72093c-3c01-433a-8d25-701cca06c975.jpg" class="team-img" alt="Sophia Reynolds">
+                        <div class="p-4">
+                            <h4 class="mb-1">Sophia Reynolds</h4>
+                            <p class="text-primary mb-3">Product Designer</p>
+                            <p class="small">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-card">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500" class="team-img" alt="Daniel Chen">
+                        <div class="p-4">
+                            <h4 class="mb-1">Daniel Chen</h4>
+                            <p class="text-primary mb-3">Marketing Specialist</p>
+                            <p class="small">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="text-primary mb-3">Get In Touch</h6>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle mx-auto">
+                    Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+                </p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="contact-info-card mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3" style="width: 50px; height: 50px;">
+                                <i class="bi bi-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <h4>Email Support</h4>
+                                <p class="mb-1">support@example.com</p>
+                                <small class="text-gray">Usually replies in 2 hours</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3" style="width: 50px; height: 50px;">
+                                <i class="bi bi-chat-dots text-white"></i>
+                            </div>
+                            <div>
+                                <h4>Live Chat</h4>
+                                <p class="mb-1">Chat with our team</p>
+                                <small class="text-gray">Available Mon-Fri, 9AM-6PM</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3" style="width: 50px; height: 50px;">
+                                <i class="bi bi-geo-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h4>Our Location</h4>
+                                <p class="mb-0">2847 Market Street</p>
+                                <p class="mb-0">San Francisco, CA 94114</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="p-4 contact-form-wrapper">
+                        <h4 class="mb-4">Send us a message</h4>
+                        <p class="mb-4">Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation.</p>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control form-control-lg" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control form-control-lg" rows="5" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary px-5">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h3 class="mb-4">Aventro</h3>
+                    <p class="mb-4">Innovative solutions for the digital age. Transform your business with modern technology and expert consultancy.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="#services">Services</a>
+                        <a href="#team">Our Team</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Our Services</h5>
+                    <div class="footer-links">
+                        <a href="#services">Digital Solutions</a>
+                        <a href="#services">Secure Systems</a>
+                        <a href="#services">Growth Strategy</a>
+                        <a href="#services">AI Integration</a>
+                        <a href="#services">Cloud Services</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Contact Info</h5>
+                    <div class="footer-links">
+                        <p class="mb-2"><i class="bi bi-geo-alt me-2"></i> 2847 Market Street, San Francisco, CA 94114</p>
+                        <p class="mb-2"><i class="bi bi-telephone me-2"></i> +1 (555) 234-5678</p>
+                        <p class="mb-2"><i class="bi bi-envelope me-2"></i> info@aventro.com</p>
+                        <p><i class="bi bi-clock me-2"></i> Mon-Fri, 9AM-6PM</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2023 Aventro. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-light me-3">Privacy Policy</a>
+                    <a href="#" class="text-light me-3">Terms of Service</a>
+                    <a href="#" class="text-light">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
-
 </html>
